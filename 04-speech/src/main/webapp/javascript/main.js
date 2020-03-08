@@ -198,6 +198,18 @@
         {
           fun2();
         }
+        else if(transcript.current.innextText.indexOf("What") != -1)
+        {
+          fun();
+        }
+        else if(transcript.current.innerText.indexOf("Interesting") != -1)
+        {
+          fun3();
+        }
+        else if(transcript.current.innerText.indexOf("Did") != -1)
+        {
+          fun4();
+        }       
       }
     }
 
