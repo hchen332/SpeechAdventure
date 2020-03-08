@@ -183,11 +183,11 @@
         
         
         
-         if(transcript.ell.contains("where"))
-           {
-             console.log("ioneyfwgug");
-             fun1();
-           }
+//          if(transcript.ell.contains("where"))
+//            {
+//              console.log("ioneyfwgug");
+//              fun1();
+//            }
         
         if(transcript.current.innerText.indexOf("where") != -1 || transcript.current.innerText.indexOf("Where") != -1)
            {
