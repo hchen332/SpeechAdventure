@@ -84,11 +84,11 @@ div{
 }
 
 #playerinput{
-  border-radius:20px;
+  border-radius:10px;
   background-color:white;
   position:relative;
   width:500px;
-  height: 80px;
+  height: 20px;
   color:black;
   margin-left:auto;
   margin-right:auto;
