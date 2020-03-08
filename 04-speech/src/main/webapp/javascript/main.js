@@ -177,10 +177,20 @@
         //transcript.current = document.createElement('div');
         //transcript.el.appendChild(transcript.current);
         console.log("hi: " + transcript.current.innerText);
+        console.log("wat from transcipt?: " + transcript.el);
+//         console.log("wat from transcipt?: " + transcript.current.innerText.toStr);
         
-         if(transcript.current.innerText.contains("where"))
+        
+        
+         if(transcript.el.contains("where"))
            {
              console.log("ioneyfwgug");
+             fun1();
+           }
+        
+        if(transcript.current.innerText.indexOf("where") != -1)
+           {
+             console.log("13243545");
              fun1();
            }
       }
