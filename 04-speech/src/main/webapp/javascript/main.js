@@ -160,7 +160,7 @@
 
     var transcript = {
       el: document.getElementById('transcript').childNodes[0],
-      ell: document.getElementById('transcript');
+      ell: document.getElementById('transcript'),
       current: document.createElement('div')
     };
     //transcript.el.appendChild(transcript.current);
