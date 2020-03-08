@@ -54,7 +54,7 @@ section > * {
   z-index: 1;
 }
 
-/.mainViewport{
+.mainViewport{
   align-items: center;
   position: relative;
   border-radius:20px;
