@@ -83,6 +83,22 @@ div{
   line-height: 60%;
 }
 
+.textViewport{
+  border-radius:20px;
+  background-color:white;
+  position:relative;
+  width:500px;
+  height: 80px;
+  color:black;
+  margin-left:auto;
+  margin-right:auto;
+  top:-160px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 4px;
+  line-height: 60%;
+}
+
 #playbutton {
   cursor: pointer;
 }
