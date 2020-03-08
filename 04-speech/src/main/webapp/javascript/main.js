@@ -195,7 +195,7 @@
       document.getElementById("detective").innerHTML = "I was at the bar last night.";
       document.getElementById("nextQ").style.display = "";
       //KEY = arr[function(val){return ++val;}]);
-      }
+      //}
     }
     function fun2(){
     if (document.getElementById(transcript.current) == KEY[]){
