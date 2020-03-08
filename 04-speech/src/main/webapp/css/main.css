@@ -53,6 +53,10 @@ section > * {
   position: relative;
   z-index: 1;
 }
+div{
+	backgound: transparent;
+	border-style: none;
+}
 
 .mainViewport{
   align-items: center;
