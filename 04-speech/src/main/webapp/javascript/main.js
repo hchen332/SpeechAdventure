@@ -173,12 +173,13 @@
         transcript.current.innerHTML = result.alternatives_[0].transcript_;
       }
       if (result.isFinal_) {
-        console.log(transcript.current.innerHTML);
-        console.log($(transcript.current.innerHTML));
+        document.getElementById("#playerinput").innerHTML = transcript.current.innerText;
+//         console.log(transcript.current.innerHTML);
+//         console.log($(transcript.current.innerHTML));
         //transcript.current = document.createElement('div');
         //transcript.el.appendChild(transcript.current);
-        console.log("hi: " + transcript.current.innerText);
-        console.log("wat from transcipt?: " + transcript.ell);
+//         console.log("hi: " + transcript.current.innerText);
+//         console.log("wat from transcipt?: " + transcript.ell);
 //         console.log("wat from transcipt?: " + transcript.current.innerText.toStr);
         
         
@@ -191,7 +192,7 @@
         
         if(transcript.current.innerText.indexOf("where") != -1 || transcript.current.innerText.indexOf("Where") != -1)
            {
-             console.log("13243545");
+//              console.log("13243545");
              fun1();
            }
         else if(transcript.current.innerText.indexOf("keep asking") != -1)
