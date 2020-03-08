@@ -18,13 +18,13 @@
   // The play button is the canonical state, which changes via events.
   var playButton = document.getElementById('playbutton');
 
-  playButton.addEventListener('keypress', function(e) { /*click*/
+  $("#playbutton").keypress( function(e) { /*click*/
     if (this.classList.contains('playing')) {
       playButton.dispatchEvent(new Event('pause'));
     } else {
       playButton.dispatchEvent(new Event('play'));
     }
-  }, true);
+  });
 
   // Update the appearance when the state changes
   playButton.addEventListener('play', function(e) {
