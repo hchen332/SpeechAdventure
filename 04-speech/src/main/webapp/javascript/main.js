@@ -184,7 +184,7 @@
     toggleWebsocket({target: context});
   }
 })();
-
+/*
  var KEY[] = ['right', 'left', 'ok']
 
     function fun1(){
@@ -216,3 +216,4 @@
     document.getElementById("Detective3").innerHTML = "I was just going.";
     document.getElementById("nextQ2").style.display="";
     }
+*/
