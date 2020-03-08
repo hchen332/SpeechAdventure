@@ -57,9 +57,8 @@ section > * {
 .mainViewport{
 	top:70px;
 	padding:10px 20px 40px 20px;
-	position: relative;
+	position: absolute;
 	margin: auto;
-	text-underline-width: 0px;
 }
 
 #playbutton {
