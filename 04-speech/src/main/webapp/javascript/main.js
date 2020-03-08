@@ -178,7 +178,7 @@
         //transcript.el.appendChild(transcript.current);
         console.log("hi: " + transcript.current.innerText);
         
-         if(transcript.current.innerText == "where")
+         if(transcript.current.innerText.contains("where"))
            {
              console.log("ioneyfwgug");
              fun1();
