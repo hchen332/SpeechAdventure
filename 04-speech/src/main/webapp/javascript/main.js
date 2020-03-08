@@ -43,7 +43,7 @@
     return;
   }
 
-  var canvas = document.getElementById('fft');
+  /*var canvas = document.getElementById('fft');
   var ctx = canvas.getContext('2d');
 
   var canvas2 = document.getElementById('fft2');
@@ -67,13 +67,13 @@
     var CUTOFF = 23;
     var numBars = Math.round(CANVAS_WIDTH / SPACER_WIDTH);
 
-    /*ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+    ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
     ctx.fillStyle = '#F6D565';
     ctx.lineCap = 'round';
 
     ctx2.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
     ctx2.fillStyle = '#3A5E8C';
-    ctx2.lineCap = 'round';*/
+    ctx2.lineCap = 'round';
 
     // Draw rectangle for each frequency bin.
     for (var i = 0; i < numBars; ++i) {
@@ -81,7 +81,7 @@
       ctx.fillRect(i * SPACER_WIDTH, CANVAS_HEIGHT, BAR_WIDTH, -magnitude);
       ctx2.fillRect(i * SPACER_WIDTH, CANVAS_HEIGHT, BAR_WIDTH, -magnitude);
     }
-  }
+  }*/
   rafCallback();
 
   // per https://g.co/cloud/speech/reference/rest/v1beta1/RecognitionConfig
