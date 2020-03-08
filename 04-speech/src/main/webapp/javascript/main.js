@@ -169,9 +169,10 @@
     function onTranscription(e) {
       var result = JSON.parse(e.data);
       if (result.alternatives_) {
-        transcript.current.innerHTML = result.alternatives_[0].transcript_; console.log(transcript.current.innerHTML);
+        transcript.current.innerHTML = result.alternatives_[0].transcript_; 
       }
       if (result.isFinal_) {
+        console.log(transcript.current.innerHTML);
         transcript.current = document.createElement('div');
         transcript.el.appendChild(transcript.current);
        
