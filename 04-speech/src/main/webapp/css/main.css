@@ -54,16 +54,11 @@ section > * {
   z-index: 1;
 }
 
-.fft {
-  position: absolute;
-  z-index: 1;
-  -webkit-box-reflect: below 5px -webkit-linear-gradient(top, transparent, transparent 50%, rgba(255,255,255,0.2));
-}
-#fft {
-  transform: translateX(-50%) rotateX(-30deg) rotateY(30deg);
-}
-#fft2 {
-  transform: translateX(-50%) rotateX(-30deg) rotateY(-30deg);
+.mainViewport{
+  background-image: url('https://raw.githubusercontent.com/hchen332/SpeechAdventure/master/04-speech/src/main/resources/DiningRoom.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #playbutton {
