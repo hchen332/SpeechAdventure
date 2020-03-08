@@ -159,9 +159,9 @@
 
     var transcript = {
       el: document.getElementById('transcript').childNodes[0],
-      current: document.createElement('div')
+      //current: document.createElement('div')
     };
-    transcript.el.appendChild(transcript.current);
+    //transcript.el.appendChild(transcript.current);
     /**
      * This function is called with the transcription result from the server.
      */
@@ -173,7 +173,7 @@
       if (result.isFinal_) {
         console.log(transcript.current.innerHTML);
         transcript.current = document.createElement('div');
-        transcript.el.appendChild(transcript.current);
+        //transcript.el.appendChild(transcript.current);
 
       }
     }
