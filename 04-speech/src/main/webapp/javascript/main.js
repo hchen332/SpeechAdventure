@@ -171,7 +171,7 @@
         transcript.current.innerHTML = result.alternatives_[0].transcript_;
       }
       if (result.isFinal_) {
-        console.log(transcript.current.innerHTML);
+        console.log($(transcript.current.innerHTML));
         transcript.current = document.createElement('div');
         //transcript.el.appendChild(transcript.current);
 
