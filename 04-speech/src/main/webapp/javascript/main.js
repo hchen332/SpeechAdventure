@@ -81,8 +81,8 @@
       ctx.fillRect(i * SPACER_WIDTH, CANVAS_HEIGHT, BAR_WIDTH, -magnitude);
       ctx2.fillRect(i * SPACER_WIDTH, CANVAS_HEIGHT, BAR_WIDTH, -magnitude);
     }
-  }*/
-  rafCallback();
+  }
+  rafCallback();*/
 
   // per https://g.co/cloud/speech/reference/rest/v1beta1/RecognitionConfig
   const SAMPLE_RATE = 16000;
