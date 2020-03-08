@@ -174,7 +174,10 @@
         console.log($(transcript.current.innerHTML));
         //transcript.current = document.createElement('div');
         //transcript.el.appendChild(transcript.current);
-
+         if(transcript.current.innerHTML == "Where")
+           {
+             fun1();
+           }
       }
     }
 
@@ -184,11 +187,8 @@
     toggleWebsocket({target: context});
   }
 })();
- if(transcript.current.innerHTML == "Where")
- {
-   fun1();
- }
- var KEY[] = ['right', 'left', 'ok']
+
+ //var KEY[] = ['right', 'left', 'ok']
 
     function fun1(){
     //if (document.getElementById(transcript.current) == KEY[]){
