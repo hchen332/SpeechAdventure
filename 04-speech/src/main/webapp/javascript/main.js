@@ -160,6 +160,7 @@
 
     var transcript = {
       el: document.getElementById('transcript').childNodes[0],
+      ell: document.getElementById('transcript');
       current: document.createElement('div')
     };
     //transcript.el.appendChild(transcript.current);
@@ -177,18 +178,18 @@
         //transcript.current = document.createElement('div');
         //transcript.el.appendChild(transcript.current);
         console.log("hi: " + transcript.current.innerText);
-        console.log("wat from transcipt?: " + transcript.el);
+        console.log("wat from transcipt?: " + transcript.ell);
 //         console.log("wat from transcipt?: " + transcript.current.innerText.toStr);
         
         
         
-         if(transcript.el.contains("where"))
+         if(transcript.ell.contains("where"))
            {
              console.log("ioneyfwgug");
              fun1();
            }
         
-        if(transcript.current.innerText.indexOf("where") != -1)
+        if(transcript.current.innerText.indexOf("where") != -1 || transcript.current.innerText.indexOf("Where") != -1)
            {
              console.log("13243545");
              fun1();
