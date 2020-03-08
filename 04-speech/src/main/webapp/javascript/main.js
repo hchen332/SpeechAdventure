@@ -174,6 +174,7 @@
       if (result.isFinal_) {
         transcript.current = document.createElement('div');
         transcript.el.appendChild(transcript.current);
+        console.log(transcript.current);
       }
     }
 
