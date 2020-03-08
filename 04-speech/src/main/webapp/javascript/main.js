@@ -173,7 +173,7 @@
         transcript.current.innerHTML = result.alternatives_[0].transcript_;
       }
       if (result.isFinal_) {
-        document.getElementById("#playerinput").innerHTML = transcript.current.innerText;
+        document.getElementById("playerinput").innerHTML = transcript.current.innerText;
 //         console.log(transcript.current.innerHTML);
 //         console.log($(transcript.current.innerHTML));
         //transcript.current = document.createElement('div');
