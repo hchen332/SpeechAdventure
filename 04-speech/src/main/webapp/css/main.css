@@ -55,10 +55,11 @@ section > * {
 }
 
 .mainViewport{
-  background-image: url('https://raw.githubusercontent.com/hchen332/SpeechAdventure/master/04-speech/src/main/resources/DiningRoom.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	top:70px;
+	padding:10px 20px 40px 20px;
+	position: relative;
+	margin: auto;
+	text-underline-width: 0px;
 }
 
 #playbutton {
