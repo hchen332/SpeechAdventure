@@ -13,7 +13,6 @@
  * limitations under the License.
  */
 
-
 (function playButtonHandler() {
   // The play button is the canonical state, which changes via events.
   var playButton = document.getElementById('playbutton');
@@ -42,9 +41,9 @@
     alert("Web Audio isn't available in your browser.");
     return;
   }
-  
 
-  
+
+
 
 
   // per https://g.co/cloud/speech/reference/rest/v1beta1/RecognitionConfig
@@ -169,13 +168,13 @@
     function onTranscription(e) {
       var result = JSON.parse(e.data);
       if (result.alternatives_) {
-        transcript.current.innerHTML = result.alternatives_[0].transcript_; 
+        transcript.current.innerHTML = result.alternatives_[0].transcript_;
       }
       if (result.isFinal_) {
         console.log(transcript.current.innerHTML);
         transcript.current = document.createElement('div');
         transcript.el.appendChild(transcript.current);
-       
+
       }
     }
 
@@ -185,3 +184,35 @@
     toggleWebsocket({target: context});
   }
 })();
+
+ var KEY[] = 'right', 'left', 'ok'
+
+    function fun1(){
+    if (document.getElementById(transcript.current) == KEY[]){
+      document.getElementById("detective").innerHTML = "I was at the bar last night.";
+      document.getElementById("nextQ").style.display = "";
+      KEY = arr[function(val){return ++val;}]);
+      }
+    }
+    function fun2(){
+    if (document.getElementById(transcript.current) == KEY[]){
+      document.getElementById("nextQ").style.display= "none";
+      document.getElementById("Detective2").style.display = "";
+      document.getElementById("detective").style.display="none";
+      }
+    }
+    function fun(){
+    if (document.getElementById(transcript.current) == KEY[]){
+    document.getElementById("Detective2").innerHTML = "I was just exploring.";
+    document.getElementById("nextQ1").style.display="";
+      }
+    }
+    function fun3(){
+    document.getElementById("nextQ1").style.display= "none";
+    document.getElementById("Detective3").style.display = "";
+    document.getElementById("Detective2").style.display="none";
+    }
+    function fun4(){
+    document.getElementById("Detective3").innerHTML = "I was just going.";
+    document.getElementById("nextQ2").style.display="";
+    }
