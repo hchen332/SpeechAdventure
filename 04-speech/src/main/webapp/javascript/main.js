@@ -194,6 +194,10 @@
              console.log("13243545");
              fun1();
            }
+        else if(transcript.current.innerText.indexOf("keep asking") != -1)
+        {
+          fun2();
+        }
       }
     }
 
