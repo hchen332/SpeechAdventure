@@ -198,17 +198,17 @@
       //}
     }
     function fun2(){
-    if (document.getElementById(transcript.current) == KEY[]){
+    //if (document.getElementById(transcript.current) == KEY[]){
       document.getElementById("nextQ").style.display= "none";
       document.getElementById("Detective2").style.display = "";
       document.getElementById("detective").style.display="none";
-      }
+      //}
     }
     function fun(){
-    if (document.getElementById(transcript.current) == KEY[]){
+    //if (document.getElementById(transcript.current) == KEY[]){
     document.getElementById("Detective2").innerHTML = "I was just exploring.";
     document.getElementById("nextQ1").style.display="";
-      }
+      //}
     }
     function fun3(){
     document.getElementById("nextQ1").style.display= "none";
