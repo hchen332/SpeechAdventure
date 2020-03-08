@@ -185,7 +185,7 @@
   }
 })();
 
- var KEY[] = 'right', 'left', 'ok'
+ var KEY[] = ['right', 'left', 'ok']
 
     function fun1(){
     if (document.getElementById(transcript.current) == KEY[]){
