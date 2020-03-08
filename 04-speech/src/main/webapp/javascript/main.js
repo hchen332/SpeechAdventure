@@ -198,7 +198,7 @@
         {
           fun2();
         }
-        else if(transcript.current.innextText.indexOf("what") != -1)
+        else if(transcript.current.innerText.indexOf("what") != -1)
         {
           fun();
         }
