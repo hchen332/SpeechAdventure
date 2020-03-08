@@ -176,9 +176,9 @@
         console.log($(transcript.current.innerHTML));
         //transcript.current = document.createElement('div');
         //transcript.el.appendChild(transcript.current);
-        console.log("hi: " + transcript.current.innerHTML.value);
+        console.log("hi: " + transcript.current.value);
         
-         if(transcript.current.innerHTML.value == "where")
+         if(transcript.current.value == "where")
            {
              console.log("ioneyfwgug");
              fun1();
