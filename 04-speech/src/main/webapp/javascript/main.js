@@ -18,7 +18,7 @@
   // The play button is the canonical state, which changes via events.
   var playButton = document.getElementById('playbutton');
 
-  playButton.addEventListener('click', function(e) {
+  playButton.addEventListener('keypress', function(e) { /*click*/
     if (this.classList.contains('playing')) {
       playButton.dispatchEvent(new Event('pause'));
     } else {
@@ -42,47 +42,6 @@
     alert("Web Audio isn't available in your browser.");
     return;
   }
-
-  /*var canvas = document.getElementById('fft');
-  var ctx = canvas.getContext('2d');
-
-  var canvas2 = document.getElementById('fft2');
-  var ctx2 = canvas2.getContext('2d');
-
-  const CANVAS_HEIGHT = canvas.height;
-  const CANVAS_WIDTH = canvas.width;
-
-  var analyser;
-
-  function rafCallback(time) {
-    window.requestAnimationFrame(rafCallback, canvas);
-
-    if (!analyser) return;
-    var freqByteData = new Uint8Array(analyser.frequencyBinCount);
-    analyser.getByteFrequencyData(freqByteData); //analyser.getByteTimeDomainData(freqByteData);
-
-    var SPACER_WIDTH = 10;
-    var BAR_WIDTH = 5;
-    var OFFSET = 100;
-    var CUTOFF = 23;
-    var numBars = Math.round(CANVAS_WIDTH / SPACER_WIDTH);
-
-    ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
-    ctx.fillStyle = '#F6D565';
-    ctx.lineCap = 'round';
-
-    ctx2.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
-    ctx2.fillStyle = '#3A5E8C';
-    ctx2.lineCap = 'round';
-
-    // Draw rectangle for each frequency bin.
-    for (var i = 0; i < numBars; ++i) {
-      var magnitude = freqByteData[i + OFFSET];
-      ctx.fillRect(i * SPACER_WIDTH, CANVAS_HEIGHT, BAR_WIDTH, -magnitude);
-      ctx2.fillRect(i * SPACER_WIDTH, CANVAS_HEIGHT, BAR_WIDTH, -magnitude);
-    }
-  }
-  rafCallback();*/
 
   // per https://g.co/cloud/speech/reference/rest/v1beta1/RecognitionConfig
   const SAMPLE_RATE = 16000;
