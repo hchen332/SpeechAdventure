@@ -183,36 +183,36 @@
     // initialize for the current state
     toggleWebsocket({target: context});
   }
+
+var KEY[] = ['right', 'left', 'ok']
+if (document.getElementById(transcript.current.innerHTML) == KEY[]){
+  console.log('!!!!!!!!!!');
+    function fun1(){
+      document.getElementById("detective").innerHTML = "I was at the bar last night.";
+      document.getElementById("nextQ").style.display = "";
+      KEY = arr[function(val){return ++val;}]);
+      }
+    }
+    function fun2(){
+    if (document.getElementById(transcript.current) == KEY[]){
+      document.getElementById("nextQ").style.display= "none";
+      document.getElementById("Detective2").style.display = "";
+      document.getElementById("detective").style.display="none";
+      }
+    }
+    function fun(){
+    if (document.getElementById(transcript.current) == KEY[]){
+    document.getElementById("Detective2").innerHTML = "I was just exploring.";
+    document.getElementById("nextQ1").style.display="";
+      }
+    }
+    function fun3(){
+    document.getElementById("nextQ1").style.display= "none";
+    document.getElementById("Detective3").style.display = "";
+    document.getElementById("Detective2").style.display="none";
+    }
+    function fun4(){
+    document.getElementById("Detective3").innerHTML = "I was just going.";
+    document.getElementById("nextQ2").style.display="";
+    }
 })();
-
-//  var KEY[] = ['right', 'left', 'ok']
-
-//     function fun1(){
-//     if (document.getElementById(transcript.current) == KEY[]){
-//       document.getElementById("detective").innerHTML = "I was at the bar last night.";
-//       document.getElementById("nextQ").style.display = "";
-//       KEY = arr[function(val){return ++val;}]);
-//       }
-//     }
-//     function fun2(){
-//     if (document.getElementById(transcript.current) == KEY[]){
-//       document.getElementById("nextQ").style.display= "none";
-//       document.getElementById("Detective2").style.display = "";
-//       document.getElementById("detective").style.display="none";
-//       }
-//     }
-//     function fun(){
-//     if (document.getElementById(transcript.current) == KEY[]){
-//     document.getElementById("Detective2").innerHTML = "I was just exploring.";
-//     document.getElementById("nextQ1").style.display="";
-//       }
-//     }
-//     function fun3(){
-//     document.getElementById("nextQ1").style.display= "none";
-//     document.getElementById("Detective3").style.display = "";
-//     document.getElementById("Detective2").style.display="none";
-//     }
-//     function fun4(){
-//     document.getElementById("Detective3").innerHTML = "I was just going.";
-//     document.getElementById("nextQ2").style.display="";
-//     }
