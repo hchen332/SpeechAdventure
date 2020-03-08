@@ -29,3 +29,52 @@ Adapted from: https://webaudiodemos.appspot.com/slides/mediademo/
 </section>
 
 <script src="/javascript/main.js"></script>
+<!--****ADDED CODE****-->
+<img src="timg[10].gif" alt="talking" height="400" width="500">
+<div id="detective">
+    <br>
+    <center onclick="fun1()">a. where were you last night? </center> <br>
+    <center >b. When was the last time you see him?</center><br>
+    <center>c. What is your opinion about him</center><br>
+</div>
+<br>
+<button onclick="fun2()" id="nextQ" style="display:none;">Interesting, keep asking </button>
+<div id="Detective2" style="display:none">
+    <center onclick="fun()">a. What did you do in the bar?</center><br>
+    <center>b. When did you arrive at the bar? </center><br>
+    <center>c. Were you in his room last night? </center><br>
+</div>
+<br>
+<button onclick="fun3()" id="nextQ1" style="display:none;">Interesting, keep asking </button>
+<div id="Detective3" style="display:none">
+    <center onclick="fun4()">a. Did you interact with him last night? </center><br>
+    <center>b. alalalalala? </center><br>
+    <center>c. lol? </center><br>
+</div>
+<br>
+<button onclick="funji()" id="nextQ2" style="display:none;">Interesting, keep asking </button>
+<script>
+    function fun1(){
+    document.getElementById("detective").innerHTML = "I was at the bar last night.";
+    document.getElementById("nextQ").style.display = "";
+    }
+    function fun2(){
+    document.getElementById("nextQ").style.display= "none";
+    document.getElementById("Detective2").style.display = "";
+    document.getElementById("detective").style.display="none";
+    }
+    function fun(){
+    document.getElementById("Detective2").innerHTML = "I was just exploring.";
+    document.getElementById("nextQ1").style.display="";
+    }
+    function fun3(){
+    document.getElementById("nextQ1").style.display= "none";
+    document.getElementById("Detective3").style.display = "";
+    document.getElementById("Detective2").style.display="none";
+    }
+    function fun4(){
+    document.getElementById("Detective3").innerHTML = "I was just going.";
+    document.getElementById("nextQ2").style.display="";
+    }
+</script>
+</body>
