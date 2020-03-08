@@ -173,7 +173,7 @@
       }
       if (result.isFinal_) {
         transcript.current = document.createElement('div');
-        transcript.el.appendChild(transcript.current);
+        transcript.el.appendChild(transcript.currentinnerHTML);
         console.log(transcript.current);
       }
     }
