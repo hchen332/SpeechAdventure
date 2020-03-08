@@ -83,7 +83,7 @@ div{
   line-height: 60%;
 }
 
-.textViewport{
+#playerinput{
   border-radius:20px;
   background-color:white;
   position:relative;
