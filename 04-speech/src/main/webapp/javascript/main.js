@@ -172,7 +172,7 @@
       }
       if (result.isFinal_) {
         console.log($(transcript.current.innerHTML));
-        transcript.current = document.createElement('div');
+        //transcript.current = document.createElement('div');
         //transcript.el.appendChild(transcript.current);
 
       }
@@ -184,14 +184,17 @@
     toggleWebsocket({target: context});
   }
 })();
-/*
+ if(transcript.current.innerHTML == "Where")
+ {
+   fun1();
+ }
  var KEY[] = ['right', 'left', 'ok']
 
     function fun1(){
-    if (document.getElementById(transcript.current) == KEY[]){
+    //if (document.getElementById(transcript.current) == KEY[]){
       document.getElementById("detective").innerHTML = "I was at the bar last night.";
       document.getElementById("nextQ").style.display = "";
-      KEY = arr[function(val){return ++val;}]);
+      //KEY = arr[function(val){return ++val;}]);
       }
     }
     function fun2(){
@@ -216,4 +219,4 @@
     document.getElementById("Detective3").innerHTML = "I was just going.";
     document.getElementById("nextQ2").style.display="";
     }
-*/
+
