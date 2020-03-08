@@ -56,7 +56,8 @@ section > * {
 
 .mainViewport{
 	top:70px;
-	padding:10px 20px 40px 20px;
+	height: 110%;
+	width: 110%;
 	position: absolute;
 	margin: auto;
 }
